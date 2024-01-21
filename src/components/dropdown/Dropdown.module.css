@@ -1,0 +1,48 @@
+.container {
+  width: 80%;
+  max-width: 15rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+
+  background-color: aliceblue;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+}
+.dropdown {
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.list {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #faf0f0;
+}
+.list p {
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  user-select: none;
+}
+.list p:hover {
+  background-color: #fcebeb;
+}
+.list > p:last-child {
+  border-radius: inherit;
+}
