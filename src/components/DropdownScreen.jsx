@@ -7,7 +7,7 @@ const DropdownScreen = (props) => {
   return (
     <div
       style={{ backgroundColor: bgColor, transition: ".5s ease" }}
-      className={styles["container"]}
+      className={styles["dropdown-container"]}
     >
       <Dropdown onSelect={(color) => setBgColor(color)} />
     </div>
