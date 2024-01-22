@@ -26,7 +26,9 @@ const Dropdown = ({ onSelect }) => {
       {showDropdown && (
         <div className={styles.list}>
           {colors.map((item, ind) => (
-            <p onClick={() => handleDropdown(item)}>{item}</p>
+            <p key={ind} onClick={() => handleDropdown(item)}>
+              {item}
+            </p>
           ))}
         </div>
       )}

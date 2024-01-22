@@ -41,7 +41,7 @@
   user-select: none;
 }
 .list p:hover {
-  background-color: #fcebeb;
+  background-color: rgb(255, 228, 193);
 }
 .list > p:last-child {
   border-radius: inherit;
